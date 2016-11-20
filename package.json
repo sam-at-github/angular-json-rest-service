@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "description": "QuickStart package.json from the documentation, supplemented with testing support",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "lint": "tslint ./app/**/*.ts -t verbose",
-    "lite": "lite-server",
+    "lint": "tslint *.ts -t verbose",
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "test-once": "tsc && karma start karma.conf.js --single-run",
     "tsc": "tsc",
-    "tsc:w": "tsc -w",
-    "webdriver:update": "webdriver-manager update"
+    "tsc:w": "tsc -w"
   },
   "keywords": [],
   "author": "",
