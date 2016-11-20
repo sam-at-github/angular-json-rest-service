@@ -31,9 +31,12 @@ class InMemoryDataService implements InMemoryDbService {
 }
 
 class Hero extends Model {
-  name: string;
+  name: string = 'No name';
   power(): number {
-    return this.name.codePointAt()
+    return this.name
+      .split('')
+      .map((n:any) => n.codePointAt())
+      .reduce((a,b) => a + b)
   }
 }
 
