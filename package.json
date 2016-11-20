@@ -1,8 +1,9 @@
 {
-  "name": "angular-quickstart",
+  "name": "angular-json-rest-service",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "Provides a simple active record factory wrapper service over a remote JSON ReST service for NG2",
   "scripts": {
+    "prepublish": "tsc --declaration",
     "lint": "tslint *.ts -t verbose",
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "test-once": "tsc && karma start karma.conf.js --single-run",
@@ -51,7 +52,6 @@
     "@types/core-js": "^0.9.34",
     "@types/node": "^6.0.46",
     "@types/jasmine": "^2.5.36",
-    "@types/selenium-webdriver": "^2.53.33"
   },
   "repository": {}
 }
