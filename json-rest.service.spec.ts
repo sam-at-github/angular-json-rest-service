@@ -32,6 +32,9 @@ class InMemoryDataService implements InMemoryDbService {
 
 class Hero extends Model {
   name: string;
+  power(): number {
+    return this.name.codePointAt()
+  }
 }
 
 class HeroFactory extends ActiveRecordFactory<Hero>
