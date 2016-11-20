@@ -51,7 +51,7 @@
     "karma-jasmine-html-reporter": "^0.2.2",
     "@types/core-js": "^0.9.34",
     "@types/node": "^6.0.46",
-    "@types/jasmine": "^2.5.36",
+    "@types/jasmine": "^2.5.36"
   },
   "repository": {}
 }
