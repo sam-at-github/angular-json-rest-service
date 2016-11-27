@@ -1,6 +1,6 @@
 {
   "name": "angular-json-rest-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Provides a simple active record factory wrapper service over a remote JSON ReST service for NG2",
   "scripts": {
     "prepublish": "tsc --declaration",
@@ -53,5 +53,8 @@
     "@types/node": "^6.0.46",
     "@types/jasmine": "^2.5.36"
   },
-  "repository": {}
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/sam-at-github/angular-json-rest-service.git"
+  }
 }
