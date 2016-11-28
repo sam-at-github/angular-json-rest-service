@@ -1,6 +1,6 @@
 {
   "name": "angular-json-rest-service",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Provides a simple active record factory wrapper service over a remote JSON ReST service for NG2",
   "scripts": {
     "prepublish": "tsc --declaration",
